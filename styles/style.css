@@ -22,9 +22,9 @@ nav > ul > li {
 }
 .header {
   background-color: #fff8f3;
-  background-image: url(../images/header_bg.png);
+  background-image: url(../images/header_bg.png),url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right,center left;
 }
 .navbar-title {
   color: #181818;
@@ -205,13 +205,47 @@ main {
 }
 .footer-item{
   display: flex;
+  gap: 100px;
   background-color:#FFF8F3;
   margin-top: 100px;
   padding: 130px 200px;
 }
 .footer-section-title{
   color: #181818;
-text-align: center;
+/* text-align: center; */
 font-size: 35px;
 font-style: normal;
+}
+.footer-col1,.footer-col2{
+  width:50%;
+}
+.contact-form>input[type="text"], .contact-form>input[type="email"],textarea{
+  display: block;
+  margin-bottom: 24px;
+  padding:18px 0 18px 30px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.submit-btn{
+  padding: 18px 35px;
+  border-radius: 5px;
+  color: #fff;
+  background: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+}
+.social-links>a{
+  margin-right: 24px;
+}
+.footer-col1>p{
+  color: #474747;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
 }
